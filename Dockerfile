@@ -1,5 +1,6 @@
 FROM java:8
 
+
 WORKDIR /home/root/javahelloworld
 RUN mkdir bin
 COPY src /home/root/javahelloworld/src
