@@ -1,4 +1,4 @@
-peline {
+pepeline {
    agent any
    stages {
       stage('Hello') {
