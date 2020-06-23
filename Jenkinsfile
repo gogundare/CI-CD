@@ -7,10 +7,12 @@ pipeline {
          steps {
             echo 'Hello World'
          }
-    stage { ('Test') {
+    stages {
+      stage { ('Test') {
             steps {
                 sh 'node --version'
     }
+      
       }
    }
 }
