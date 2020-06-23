@@ -1,6 +1,5 @@
 peline {
    agent any
-
    stages {
       stage('Hello') {
          steps {
@@ -9,4 +8,3 @@ peline {
       }
    }
 }
-
